@@ -1,0 +1,1 @@
+time CUDA_VISIBLE_DEVICES=1 python3 -m openpifpaf.eval --dataset=wholebody --checkpoint=outputs/shufflenetv2k16-211120-101235-wholebody.pkl.epoch045 --force-complete-pose --seed-threshold=0.2 --loader-workers=16 --wholebody-val-annotations=data-mscoco/annotations/coco_wholebody_val_v1.0.json --wholebody-val-image-dir=data-mscoco/images/val2017

@@ -1,0 +1,1 @@
+time CUDA_VISIBLE_DEVICES=1 python3 -m openpifpaf.video --source=docs/UploadServer/videoplayback.mp4 --checkpoint=outputs/shufflenetv2k16-211120-101235-wholebody.pkl.epoch045 --video-output docs/UploadServer/testvideo1.mp4 --line-width 1 --video-fps 20
